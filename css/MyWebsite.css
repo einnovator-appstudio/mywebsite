@@ -1,4 +1,18 @@
-/* line 1, MyWebsite.scss */
-a {
-  color : green;
+/* line 3, MyWebsite.scss */
+h1 {
+  color : #3f7db6;
+}
+/* line 7, MyWebsite.scss */
+.city-card {
+  width : "200";
+  padding : 20;
+}
+/* line 12, MyWebsite.scss */
+.cards {
+  padding : 30;
+}
+/* line 14, MyWebsite.scss */
+.cards .card {
+  padding : 20;
+  width : 200;
 }
