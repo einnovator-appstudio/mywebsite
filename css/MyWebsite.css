@@ -1,18 +1,75 @@
 /* line 3, MyWebsite.scss */
 h1 {
-  color : #3f7db6;
+  color : black;
 }
 /* line 7, MyWebsite.scss */
-.city-card {
-  width : "200";
-  padding : 20;
+h2 {
+  text-transform : uppercase;
 }
-/* line 12, MyWebsite.scss */
-.cards {
-  padding : 30;
+/* line 10, MyWebsite.scss */
+.tour {
+  padding : 20px 30px;
 }
 /* line 14, MyWebsite.scss */
+.subtitle {
+  color : grey;
+  font-style : italic;
+  font-size : medium;
+  text-align : center;
+  display : block;
+  margin-bottom : 20px;
+}
+/* line 23, MyWebsite.scss */
+.band-members {
+  margin-top : 40px;
+  margin-top : 40px;
+}
+/* line 27, MyWebsite.scss */
+.band-members label {
+  display : block;
+  text-align : center;
+}
+/* line 31, MyWebsite.scss */
+.band-members img {
+  width : 100px;
+  border-radius : 4px;
+}
+/* line 37, MyWebsite.scss */
+.cards {
+  padding : 20px 30px;
+}
+/* line 39, MyWebsite.scss */
 .cards .card {
-  padding : 20;
-  width : 200;
+  padding : 0;
+  margin : 10px 20px;
+  width : 300px;
+  height : 450px;
+  border : none;
+}
+/* line 45, MyWebsite.scss */
+.cards .card img {
+  width : 300px;
+  height : 200px;
+}
+/* line 49, MyWebsite.scss */
+.cards .card .concert-city {
+  color : black;
+}
+/* line 52, MyWebsite.scss */
+.cards .card .concert-date {
+  color : grey;
+  font-style : italic;
+}
+/* line 59, MyWebsite.scss */
+.footer {
+  text-align : center;
+  color : grey;
+  background-color : white;
+  border-top : none;
+  padding : 50px;
+}
+/* line 60, MyWebsite.scss */
+.footer i {
+  font-size : 20px;
+  padding : 5px;
 }
